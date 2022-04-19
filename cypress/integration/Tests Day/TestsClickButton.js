@@ -3,6 +3,7 @@ describe("Log in", function (){
         cy.visit("https://travel.yandex.ru/")
         cy.get('[href="/trains/"]').click()
         cy.get('[href="/hotels/"]').click()
-
+        cy.get('[href="/buses/"]').click()
+        cy.get('[href="/tours/"]').click()
     })
 })
